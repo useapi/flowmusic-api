@@ -1,0 +1,17 @@
+[
+    {
+        "prompt": "lo-fi hip hop, mellow piano, 80 bpm. By default the model decides whether to sing based on your prompt."
+    },
+    {
+        "prompt": "warm indie folk ballad, acoustic guitar, soft female vocals, 70 bpm, wistful and hopeful",
+        "ghostwriter": "pro"
+    },
+    {
+        "prompt": "energetic synthwave, driving bass, retro 80s, 120 bpm",
+        "instrumental": true
+    },
+    {
+        "prompt": "soulful R&B, lush keys, 90 bpm. Provide your own [Verse]/[Chorus]-tagged lyrics to force a vocal render of those exact words. For all parameters see https://useapi.net/docs/api-flowmusic-v1/post-flowmusic-music",
+        "lyrics": "[Verse 1]\nCity lights blur in the rain\n[Chorus]\nAnd I will wait for the morning sun"
+    }
+]
