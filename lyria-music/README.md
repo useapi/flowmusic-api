@@ -1,6 +1,6 @@
 # Lyria 3 Pro music — Flow Music API batch generation (Node.js)
 
-Batch-generate full songs with Google's [Lyria 3 Pro](https://deepmind.google/models/lyria/) through the [Flow Music API](https://useapi.net/docs/api-flowmusic-v1) by [useapi.net](https://useapi.net/?utm_source=github&utm_medium=readme&utm_campaign=flowmusic-api).
+Batch-generate full songs with Google's [Lyria 3 Pro](https://deepmind.google/models/lyria/) through the [Flow Music API](https://useapi.net/docs/api-flowmusic-v1) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=flowmusic-api).
 
 📖 Full walkthrough: **[How to Generate AI Music with Lyria 3 Pro via the Flow Music API](https://useapi.net/docs/articles/flowmusic-bash)**
 
@@ -9,7 +9,7 @@ Batch-generate full songs with Google's [Lyria 3 Pro](https://deepmind.google/mo
 ## Prerequisites
 
 - [Node.js](https://nodejs.org) v21 or newer (no dependencies to install — uses built-in `fetch`)
-- A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github&utm_medium=readme&utm_campaign=flowmusic-api)
+- A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github.com&utm_medium=referral&utm_campaign=flowmusic-api)
 - A connected [Flow Music account](https://useapi.net/docs/start-here/setup-flowmusic) email
 
 ## Usage
