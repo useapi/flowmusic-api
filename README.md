@@ -1,6 +1,6 @@
-# Flow Music API examples (useapi.net)
+# Google Flow Music API (Lyria 3.5) examples by useapi.net
 
-Runnable Node.js examples for the [Flow Music API](https://useapi.net/docs/api-flowmusic-v1) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=flowmusic-api) — generate full songs with Google's **Lyria 3 Pro** (with vocals or instrumental, your own custom lyrics, plus cover / remix / extend / stems editing) through a simple REST API that drives your own [Flow Music](https://www.flowmusic.app) account — at roughly 6–10× less than Google's official $0.08-a-song API.
+Runnable Node.js examples for the Google [Flow Music API](https://useapi.net/docs/api-flowmusic-v1) by [useapi.net](https://useapi.net/?utm_source=github.com&utm_medium=referral&utm_campaign=flowmusic-api) — generate full songs with Google's **Lyria 3 Pro** (with vocals or instrumental, your own custom lyrics, plus cover / remix / extend / stems editing) through a simple REST API that drives your own [Flow Music](https://www.flowmusic.app) account — at roughly 6–10× less than Google's official $0.08-a-song API.
 
 Each example reads a list of prompts from `prompts.json`, submits them through the useapi.net Flow Music API, and downloads every finished track.
 
