@@ -37,6 +37,33 @@ claude mcp add --transport http useapi-flowmusic https://api.useapi.net/v1/flowm
 
 Cursor, VS Code, Windsurf and the full tool list: [Flow Music MCP server docs](https://useapi.net/docs/api-flowmusic-v1/mcp?utm_source=github.com&utm_medium=referral&utm_campaign=flowmusic-api). useapi.net is a third-party API, not affiliated with Google.
 
+## Use with Claude Code
+
+This repo is also a Claude Code plugin marketplace. The plugin adds the hosted Flow Music MCP server, and reads your token from the `USEAPI_TOKEN` environment variable, so set it before you start Claude Code:
+
+```bash
+export USEAPI_TOKEN=user:12345-...      # your useapi.net API token
+```
+
+Then, inside Claude Code:
+
+```
+/plugin marketplace add useapi/flowmusic-api
+/plugin install flowmusic@useapi-flowmusic
+```
+
+On Claude Code 2.1.275 or later, `/plugin install flowmusic --marketplace useapi/flowmusic-api` does both in one step. Run `/mcp` to check that `useapi-flowmusic` is connected.
+
+## Use with Gemini CLI
+
+This repo is also a Gemini CLI extension with the same MCP server:
+
+```bash
+gemini extensions install https://github.com/useapi/flowmusic-api
+```
+
+The install asks for your useapi.net API token and keeps it in the system keychain. Change it later with `gemini extensions config useapi-flowmusic`, and check the connection with `gemini mcp list`.
+
 ## Common questions
 
 <!-- Official API figures in these answers, verified 2026-10-18: https://ai.google.dev/gemini-api/docs/pricing (Lyria 3.5 / 3 Pro $0.08 per song). Plan figures: useapi.net/docs/api-flowmusic-v1 calculator. -->
