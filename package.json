@@ -1,7 +1,7 @@
 {
   "name": "flowmusic-api",
   "version": "1.0.0",
-  "description": "Runnable Node.js examples for the Flow Music API by useapi.net — generate full songs with Google's Lyria 3 Pro (vocals, custom lyrics, instrumentals, editing).",
+  "description": "Runnable Node.js examples for the Google Flow Music API by useapi.net: full songs with Google's Lyria 3.5 and Lyria 3 Pro (vocals, custom lyrics, instrumentals, editing).",
   "author": "useapi.net",
   "license": "MIT",
   "type": "module",

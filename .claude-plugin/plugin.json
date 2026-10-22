@@ -1,7 +1,7 @@
 {
   "name": "flowmusic",
   "displayName": "Flow Music (useapi.net)",
-  "description": "Hosted Flow Music MCP server by useapi.net (18 tools): make Lyria 3.5 and Lyria 3 Pro songs, write lyrics, make covers and remixes, edit tracks and split stems, on your own Flow Music account. Third-party paid service, not affiliated with Google.",
+  "description": "Hosted Flow Music MCP server by useapi.net (18 tools): make Lyria 3.5 and Lyria 3 Pro songs, write lyrics, make covers and remixes, edit tracks and split stems, with your Flow Music subscription. Third-party paid service, not affiliated with Google.",
   "author": {
     "name": "useapi.net",
     "url": "https://useapi.net"

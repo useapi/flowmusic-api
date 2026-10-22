@@ -1,9 +1,9 @@
 /*
 
-Script version 1.0, July 19, 2026
+Script version 1.1, October 18, 2026
 
 Script to batch-generate music using prompts with the Flow Music API v1 by useapi.net 🚀
-Generates complete songs with Google's Lyria 3 Pro via the music endpoint.
+Generates complete songs with Google's Lyria 3.5 or Lyria 3 Pro (the default) via the music endpoint.
 For more details visit https://useapi.net/docs/api-flowmusic-v1/post-flowmusic-music
 
 Installation Instructions:
@@ -37,6 +37,7 @@ Changelog:
 ==========
 
 - July 19, 2026: Initial release. Submits prompts to the music endpoint in async mode and downloads the resulting m4a clips.
+- October 18, 2026: Pass an optional per-prompt `model` (`lyria-3.5` or `lyria-3-pro`, the default) through to the music endpoint.
 
 */
 
@@ -83,9 +84,9 @@ async function fetchAccounts(apiToken) {
 // Submit a single prompt to the music endpoint in async mode.
 // Returns the HTTP status; on 201 the jobid is appended to RESULTS_FILE.
 async function submitMusic(apiToken, email, prompt, index) {
-    const { prompt: text, instrumental, lyrics, ghostwriter } = prompt;
+    const { prompt: text, instrumental, lyrics, ghostwriter, model } = prompt;
 
-    console.log(`🚀 Lyria 3 Pro » Prompt #${index} • account ${email} • ${instrumental ? 'instrumental' : 'auto vocals'} …`);
+    console.log(`🚀 ${model || 'lyria-3-pro'} » Prompt #${index} • account ${email} • ${instrumental ? 'instrumental' : 'auto vocals'} …`);
 
     const body = JSON.stringify({
         email,
@@ -93,6 +94,7 @@ async function submitMusic(apiToken, email, prompt, index) {
         instrumental,
         lyrics,
         ghostwriter,
+        model,
         mode: 'async'
     });
 

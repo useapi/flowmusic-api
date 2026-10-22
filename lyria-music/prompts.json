@@ -4,7 +4,8 @@
     },
     {
         "prompt": "warm indie folk ballad, acoustic guitar, soft female vocals, 70 bpm, wistful and hopeful",
-        "ghostwriter": "pro"
+        "ghostwriter": "pro",
+        "model": "lyria-3.5"
     },
     {
         "prompt": "energetic synthwave, driving bass, retro 80s, 120 bpm",
