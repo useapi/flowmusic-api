@@ -10,7 +10,7 @@ Full walkthrough: **[How to Generate AI Music with Lyria 3 Pro via the Flow Musi
 
 - [Node.js](https://nodejs.org) v21 or newer (no dependencies to install — uses built-in `fetch`)
 - A useapi.net [API token](https://useapi.net/docs/start-here/setup-useapi?utm_source=github.com&utm_medium=referral&utm_campaign=flowmusic-api)
-- A connected [Flow Music account](https://useapi.net/docs/start-here/setup-flowmusic?utm_source=github.com&utm_medium=referral&utm_campaign=flowmusic-api) email
+- A connected [Flow Music account](https://useapi.net/docs/start-here/setup-flowmusic?utm_source=github.com&utm_medium=referral&utm_campaign=flowmusic-api) email, on any Flow Music plan, including the one a Google AI subscription includes (Starter on [Google AI Plus](https://support.google.com/googleone/answer/16882689), Plus on [Google AI Pro](https://support.google.com/googleone/answer/14534406), Member on [Google AI Ultra](https://support.google.com/googleone/answer/16286513))
 
 ## Usage
 
